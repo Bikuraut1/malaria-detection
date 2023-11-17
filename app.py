@@ -16,7 +16,7 @@ def load_image(image_file):
     return np.expand_dims(img_array, axis=0)  # Add batch dimension
 
 # Class names mapping (replace with your actual class names)
-class_names = {0: "Parasitized", 1: "Uninfected"}  # Example
+class_names = {0: "Parasitized", 1: "Uninfected", 2: "Unknown Class"}  # Example
 
 # Function to display predictions
 def display_predictions(predictions):
